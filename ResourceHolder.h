@@ -56,6 +56,6 @@ ResourceHolder<ResourceType, KeyType>& getGlobalResourceHolder()
 
 inline auto getGlobalTextureHolder = getGlobalResourceHolder<sf::Texture, std::string>;
 inline auto getGlobalFontHolder = getGlobalResourceHolder<sf::Font, std::string>;
-inline auto getGlobalSoundBufferHolder = getGlobalResourceHolder<sf::SoundBuffer, std::string>;
+//inline auto getGlobalSoundBufferHolder = getGlobalResourceHolder<sf::SoundBuffer, std::string>;
 
 #endif
