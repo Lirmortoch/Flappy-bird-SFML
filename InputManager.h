@@ -10,8 +10,6 @@ private:
 public:
     InputManager(GameDataRef _data);
 
-    //bool IsSpriteClicked(sf::Sprite object, sf::Mouse::Button button);
-
     bool IsSpriteClicked(sf::Event event, sf::Sprite object, sf::Mouse::Button button);
 
     sf::Vector2i GetMousePosition();
