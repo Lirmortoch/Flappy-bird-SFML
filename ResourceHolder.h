@@ -1,5 +1,5 @@
 #pragma once
-#include <SFML/Audio.hpp>
+#include <SFML/Graphics.hpp>
 #ifndef RESOURCEHOLDER_H
 #define RESOURCEHOLDER_H
 
